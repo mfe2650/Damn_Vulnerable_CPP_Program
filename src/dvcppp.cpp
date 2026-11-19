@@ -27,7 +27,7 @@ void threadingExample() {
     t.join();
 
     std::cout << "stackVar after thread execution: " << stackVar << std::endl;  // Expecting 42
-}`
+}
 
 // Example 2: Dangling Pointer
 void danglingPointerExample() {
