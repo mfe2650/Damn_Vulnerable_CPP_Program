@@ -12,8 +12,14 @@
         "name": "main"
       },
       "assessment": {
-        "types": ["SAST","SCA"]
+        "types": ["SAST"]
+      },
+      "test": {
+        "SAST": {
+          "location": "local"
+        }
       }
+
     }
   }
 }

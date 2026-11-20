@@ -1,0 +1,24 @@
+{
+  "data": {
+    "polaris": {
+      "serverUrl": "https://poc.polaris.blackduck.com",
+      "application": {
+        "name": "MT-Test"
+      },
+      "project": {
+        "name": "Damn_Vulnerable_CPP_Program"
+      },
+      "branch": {
+        "name": "main"
+      },
+      "assessment": {
+        "types": ["SAST","SCA"]
+      },
+      "test": {
+        "SCA": {
+          "type": "SCA-PACKAGE,SCA-SIGNATURE"
+        }
+      }
+    }
+  }
+}
