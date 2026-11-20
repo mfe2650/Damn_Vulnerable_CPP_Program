@@ -1,0 +1,19 @@
+{
+  "data": {
+    "polaris": {
+      "serverUrl": "https://cdev.dev.polaris.blackduck.com",
+      "application": {
+        "name": "MT-Test"
+      },
+      "project": {
+        "name": "Damn_Vulnerable_CPP_Program"
+      },
+      "branch": {
+        "name": "main"
+      },
+      "assessment": {
+        "types": ["SAST","SCA"]
+      }
+    }
+  }
+}
